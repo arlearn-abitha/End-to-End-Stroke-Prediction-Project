@@ -1,1 +1,2 @@
+web: gunicorn stroke_predict:app 
 heroku ps:scale web=1
